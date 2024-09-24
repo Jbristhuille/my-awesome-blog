@@ -1,0 +1,16 @@
+/******************************************************************************
+ * @Author                : Jbristhuille<jbristhuille@gmail.com>              *
+ * @CreatedDate           : 2024-09-24 13:44:31                               *
+ * @LastEditors           : Jbristhuille<jbristhuille@gmail.com>              *
+ * @LastEditDate          : 2024-09-24 13:46:52                               *
+ *****************************************************************************/
+
+.articles-container {
+  border: 1px solid green;
+}
+
+.articles-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
