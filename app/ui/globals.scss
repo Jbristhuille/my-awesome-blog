@@ -2,7 +2,7 @@
  * @Author                : Jbristhuille<jbristhuille@gmail.com>              *
  * @CreatedDate           : 2024-09-23 19:42:43                               *
  * @LastEditors           : Jbristhuille<jbristhuille@gmail.com>              *
- * @LastEditDate          : 2024-09-29 19:07:39                               *
+ * @LastEditDate          : 2024-09-29 20:39:10                               *
  *****************************************************************************/
 
 /* SUMMARY
@@ -12,7 +12,8 @@
     * Others
   * Reset
   * Font size
-  * Page padding
+  * Page paddings
+  * Inputs
 */
 
 /* Variables */
@@ -58,6 +59,25 @@ h3 {
 }
 /***/
 
+/* Page paddings */
 Body {
   padding: var(--pad-big) var(--pad-high);
 }
+/***/
+
+/* Inputs */
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: var(--pad-light);
+
+  label {
+   font-weight: bold;
+  }
+}
+
+textarea {
+  resize: vertical;
+  min-height: 250px;
+}
+/***/
