@@ -1,0 +1,28 @@
+/******************************************************************************
+ * @Author                : Jbristhuille<jbristhuille@gmail.com>              *
+ * @CreatedDate           : 2024-09-24 13:43:13                               *
+ * @LastEditors           : Jbristhuille<jbristhuille@gmail.com>              *
+ * @LastEditDate          : 2024-09-29 19:25:57                               *
+ *****************************************************************************/
+
+.article {
+  text-decoration: none;
+  color: var(--c-black);
+  box-shadow: var(--shadow);
+  padding: var(--pad-med);
+  box-sizing: border-box;
+  border-radius: var(--radius);
+  transition: transform var(--transition);
+
+  .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: var(--pad-med);
+  }
+
+
+  &:hover {
+    transform: scale(1.01);
+  }
+}

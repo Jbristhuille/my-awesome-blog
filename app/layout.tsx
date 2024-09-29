@@ -2,7 +2,7 @@
  * @Author                : Jbristhuille<jbristhuille@gmail.com>              *
  * @CreatedDate           : 2024-09-23 19:39:21                               *
  * @LastEditors           : Jbristhuille<jbristhuille@gmail.com>              *
- * @LastEditDate          : 2024-09-23 19:48:52                               *
+ * @LastEditDate          : 2024-09-29 18:58:08                               *
  *****************************************************************************/
 
 /* SUMMARY
@@ -12,7 +12,7 @@
 
 /* Imports */
 import type { Metadata } from "next";
-import "./ui/globals.css";
+import "./ui/globals.scss";
 /***/
 
 /* Metadata */
