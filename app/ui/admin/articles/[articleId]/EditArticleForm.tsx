@@ -2,7 +2,7 @@
  * @Author                : Jbristhuille<jbristhuille@gmail.com>              *
  * @CreatedDate           : 2024-09-29 20:29:40                               *
  * @LastEditors           : Jbristhuille<jbristhuille@gmail.com>              *
- * @LastEditDate          : 2024-09-29 20:45:44                               *
+ * @LastEditDate          : 2024-09-29 21:15:45                               *
  *****************************************************************************/
 
 /* SUMMARY
@@ -48,8 +48,7 @@ export default function EditArticleForm(props: IPropsEditArticleForm) {
 
       <div className="input">
         <label htmlFor="content">Contenu:</label>
-        <textarea id="content" value={content} onChange={(e) => contentChange(e.target.value)}>
-        </textarea>
+        <textarea id="content" value={content} onChange={(e) => contentChange(e.target.value)}></textarea>
       </div>
 
       <Button content="Sauvegarder"

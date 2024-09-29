@@ -1,14 +1,16 @@
 /******************************************************************************
  * @Author                : Jbristhuille<jbristhuille@gmail.com>              *
- * @CreatedDate           : 2024-09-29 19:55:37                               *
+ * @CreatedDate           : 2024-09-29 20:24:45                               *
  * @LastEditors           : Jbristhuille<jbristhuille@gmail.com>              *
- * @LastEditDate          : 2024-09-29 21:23:37                               *
+ * @LastEditDate          : 2024-09-29 20:24:45                               *
  *****************************************************************************/
 
-.button {
-  cursor: pointer;
-  padding: var(--pad-light);
+.input {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  gap: var(--pad-light);
+
+  label {
+    font-weight: bold;
+  }
 }

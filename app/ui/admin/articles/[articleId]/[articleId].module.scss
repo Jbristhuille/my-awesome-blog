@@ -1,0 +1,19 @@
+/******************************************************************************
+ * @Author                : Jbristhuille<jbristhuille@gmail.com>              *
+ * @CreatedDate           : 2024-09-29 21:17:11                               *
+ * @LastEditors           : Jbristhuille<jbristhuille@gmail.com>              *
+ * @LastEditDate          : 2024-09-29 21:26:33                               *
+ *****************************************************************************/
+
+.article-edit {
+  .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  a {
+    display: block;
+    margin-bottom: var(--pad-med);
+  }
+}
