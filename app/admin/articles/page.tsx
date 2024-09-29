@@ -2,7 +2,7 @@
  * @Author                : Jbristhuille<jbristhuille@gmail.com>              *
  * @CreatedDate           : 2024-09-24 13:50:23                               *
  * @LastEditors           : Jbristhuille<jbristhuille@gmail.com>              *
- * @LastEditDate          : 2024-09-24 14:38:00                               *
+ * @LastEditDate          : 2024-09-29 18:16:11                               *
  *****************************************************************************/
 
 /* SUMMARY
@@ -15,7 +15,7 @@ import { prisma } from "@/app/lib/prisma";
 /***/
 
 /* Components */
-import Button from "@/app/lib/Button";
+import Button from "@/app/ui/Button";
 import Article from "@/app/ui/articles/Article";
 import { redirect } from "next/navigation";
 /***/
